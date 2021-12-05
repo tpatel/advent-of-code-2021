@@ -6,3 +6,15 @@ const lines = fs
   .split("\n") // Split on newline
   .filter(Boolean) // Remove empty lines
   .map(Number); // Parse each line into a number
+
+function part1() {
+  //do something here
+}
+
+part1();
+
+function part2() {
+  //do something here
+}
+
+part2();
