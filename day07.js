@@ -6,7 +6,7 @@ const crabs = fs
   .split(",") // Split on newline
   .map(Number); // Parse each line into a number
 
-crabs.sort();
+crabs.sort((a, b) => a - b);
 
 function median(array) {
   const internalArray = [...array];
